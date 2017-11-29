@@ -145,7 +145,6 @@ class Solution(object):
                 self.add_possibilities(self.open[i])
         space.affected.clear()
         return
-
     
     def perm(self):
         try:
