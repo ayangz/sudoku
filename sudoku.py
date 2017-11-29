@@ -49,7 +49,6 @@ class Solution(object):
         if(len(possibilities) == 1):
             self.board[row][col] = "".join(possibilities)
             self.remove_possibilities(result, next(iter(possibilities)), rand_int)
-        
         return result
 
     def parse_board(self):
